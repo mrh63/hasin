@@ -1,0 +1,58 @@
+
+
+.about_us {
+    .heading {
+        display: table;
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+        .heading_line {
+            height: 2px;
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            span {
+                height: 0px;
+                border-top: 2px solid rgba(52,52,52,0.1);
+                display: block;
+                position: relative;
+                top: 0px;
+                width: 100%;
+            }
+        }
+
+        .heading_content {
+            cursor: default;
+            pointer-events: none;
+            display: table-cell;
+            vertical-align: middle;
+            border-radius: 2px;
+            border: 2px solid rgba(52,52,52,0.1);
+            display: table-cell;
+            vertical-align: middle;
+            padding: 17px 40px;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+    }
+}
+
+.about_us {
+    .content {
+        text-align: justify;
+        width: 75rem;
+        margin: auto;
+        line-height: 2;
+    }
+}
+
+.about_us {
+    .footer {
+        width: 75rem;
+        margin: 2rem auto;
+
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Product correctly with invalid route 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Product
+    match={
+      Object {
+        "params": Object {
+          "title": "abc",
+        },
+      }
+    }
+  >
+    <div
+      className="product"
+    >
+      <Container
+        tag="div"
+      >
+        <div
+          className="container"
+        >
+          <Row
+            className="d-flex justify-content-center"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="d-flex justify-content-center row"
+            >
+              <Col
+                lg="8"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-lg-8"
+                >
+                  <img
+                    alt="product not found"
+                    src="/images/no-image.jpg"
+                    width="100%"
+                  />
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="mt-5 d-flex justify-content-center"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="mt-5 d-flex justify-content-center row"
+            >
+              <Col
+                lg="8"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-lg-8"
+                >
+                  <p>
+                    product not found
+                  </p>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </div>
+  </Product>
+</Provider>
+`;
+
+exports[`should render Product correctly with valid route 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Product
+    match={
+      Object {
+        "params": Object {
+          "title": "مایکت",
+        },
+      }
+    }
+  >
+    <div
+      className="product"
+    >
+      <Container
+        tag="div"
+      >
+        <div
+          className="container"
+        >
+          <Row
+            className="d-flex justify-content-center"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="d-flex justify-content-center row"
+            >
+              <Col
+                lg="8"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-lg-8"
+                >
+                  <img
+                    alt="مایکت"
+                    src="/images/myket.jpg"
+                    width="100%"
+                  />
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="mt-5 d-flex justify-content-center"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="mt-5 d-flex justify-content-center row"
+            >
+              <Col
+                lg="8"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-lg-8"
+                >
+                  <p>
+                    مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده. در حال حاضر بیش از ۳۳ هزار توسعه‌دهنده ایرانی و خارجی با مایکت همکاری می‌کنند و برنامه‌ها و بازی‌های تولید شده آن‌ها، پس از بررسی در دسترس کاربران قرار می‌گیرد.         در حال حاضر مایکت با بیش از 12 میلیون کاربر توانسته جایگاه خود را به عنوان یکی از پرطرفدارترین مارکت‌های ایرانی ثابت کند؛ مایکت روزانه آپدیت می‌شود و به صورت آنلاین پاسخ‌گوی سوالات و مشکلات احتمالی کاربران و توسعه‌دهندگان است. اگر برنامه یا بازی مد نظر شما در مایکت نبود، آن را سفارش دهید. در کمترین زمان ممکن تیم حرفه ای و درجه یک مایکت فراهمش می‌کنند!         برای دانلود مایکت و استفاده از آن، می‌توانید به سایت آن مراجعه نمایید.
+                  </p>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </div>
+  </Product>
+</Provider>
+`;

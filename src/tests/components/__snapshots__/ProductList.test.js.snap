@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ProductList correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <ProductList>
+        <Container
+          className="product-list"
+          tag="div"
+        >
+          <div
+            className="product-list container"
+          >
+            <ProductCard
+              description="مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده. در حال حاضر بیش از ۳۳ هزار توسعه‌دهنده ایرانی و خارجی با مایکت همکاری می‌کنند و برنامه‌ها و بازی‌های تولید شده آن‌ها، پس از بررسی در دسترس کاربران قرار می‌گیرد.         در حال حاضر مایکت با بیش از 12 میلیون کاربر توانسته جایگاه خود را به عنوان یکی از پرطرفدارترین مارکت‌های ایرانی ثابت کند؛ مایکت روزانه آپدیت می‌شود و به صورت آنلاین پاسخ‌گوی سوالات و مشکلات احتمالی کاربران و توسعه‌دهندگان است. اگر برنامه یا بازی مد نظر شما در مایکت نبود، آن را سفارش دهید. در کمترین زمان ممکن تیم حرفه ای و درجه یک مایکت فراهمش می‌کنند!         برای دانلود مایکت و استفاده از آن، می‌توانید به سایت آن مراجعه نمایید."
+              id={1}
+              image="/images/myket.jpg"
+              key="1"
+              productKey="myket"
+              subtitle="مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده."
+              title="مایکت"
+            >
+              <div
+                className="product-card"
+              >
+                <Card
+                  className="h-100"
+                  tag="div"
+                >
+                  <div
+                    className="h-100 card"
+                  >
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardTitle
+                          tag="div"
+                        >
+                          <div
+                            className="card-title"
+                          >
+                            مایکت
+                          </div>
+                        </CardTitle>
+                      </div>
+                    </CardBody>
+                    <img
+                      alt="Card cap"
+                      src="/images/myket.jpg"
+                      width="100%"
+                    />
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardText
+                          className="text-justify"
+                          tag="p"
+                        >
+                          <p
+                            className="text-justify card-text"
+                          >
+                            مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده.
+                          </p>
+                        </CardText>
+                        <CardLink
+                          href="#"
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          <a
+                            className="card-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                             حذف 
+                          </a>
+                        </CardLink>
+                        <CardLink
+                          className="mr-5"
+                          tag={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "NavLink",
+                              "propTypes": Object {
+                                "activeClassName": [Function],
+                                "activeStyle": [Function],
+                                "aria-current": [Function],
+                                "className": [Function],
+                                "exact": [Function],
+                                "innerRef": [Function],
+                                "isActive": [Function],
+                                "location": [Function],
+                                "onClick": [Function],
+                                "replace": [Function],
+                                "strict": [Function],
+                                "style": [Function],
+                                "target": [Function],
+                                "to": [Function],
+                              },
+                              "render": [Function],
+                            }
+                          }
+                          to="/مایکت"
+                        >
+                          <NavLink
+                            className="mr-5 card-link"
+                            to="/مایکت"
+                          >
+                            <Link
+                              aria-current={null}
+                              className="mr-5 card-link"
+                              to={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/مایکت",
+                                  "search": "",
+                                  "state": null,
+                                }
+                              }
+                            >
+                              <LinkAnchor
+                                aria-current={null}
+                                className="mr-5 card-link"
+                                href="/مایکت"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  aria-current={null}
+                                  className="mr-5 card-link"
+                                  href="/مایکت"
+                                  onClick={[Function]}
+                                >
+                                   جزییات بیشتر 
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </NavLink>
+                        </CardLink>
+                      </div>
+                    </CardBody>
+                  </div>
+                </Card>
+              </div>
+            </ProductCard>
+            <ProductCard
+              description="آلین از سال 1393 فعالیت در حوزه خدمات مرتبط با پایانه ­های فروش از جمله بازاریابی، نصب و پشتیبانی از پایانه­‌های فروش بانکی را آغاز کرد و در حال حاضر پروژه­‌های زیر را با بیش از 200 هزار دستگاه پایانه­ فروش خود با برند Castles در دست اجرا دارد:         قرارداد مشارکت با شرکت پرداخت الکترونیک سداد در استان­های تهران، فارس، خراسان، آذربایجان شرقی، آذربایجان غربی، سمنان، گیلان، البرز، کرمان، مازندران وگلستان         قرارداد مشارکت با شرکت کارت اعتباری ایران­کیش در استان­‌های تهران، خراسان، گیلان، البرز، کرمان ومازندران برای بانک‌های صادرات و تجارت         قرارداد مشارکت با شرکت به پرداخت در جزیره کیش         قرارداد مشارکت با شرکت فن­آوا­کارت در استان­‌های تهران، فارس، خراسان، آذربایجان شرقی، آذربایجان غربی، سمنان، گیلان، البرز، کرمان، مازندران، یزد، قم وگلستان         قرارداد ارائه خدمات به شرکت سایان­ کارت در کل استان تهران         قرارداد اجاره 11500 دستگاه POS با شرکت راهبرد هوشمند بانک شهر         قرارداد در حال انعقاد با شرکت تجارت الکترونیک بانک سرمایه.         سامانه مدیریت برنامه­‌های وفادارسازی کیمیا                  سامانه­ای با قابلیت­های منحصربه ­فرد به منظور راه ­اندازی باشگاه مشتریان و مدیریت برنامه ­های وفادارسازی مشتریان         با قابلیت شناسایی، دسته ­بندی و طبقه ­بندی مشتریان واختصاص و مدیریت امتیازها         اختصاصی­ سازی ­شده در نسخه ­های مناسب، ایرلاین­‌ها، فروشگاه­‌های بزرگ زنجیره­ای، فروشگاه ­های کوچک و متوسط و…         سامانه مدیریت رگولاتوری رزرواسیون و خدمات گردشگری Tourismservices.ir         سامانه­ای که در حال حاضر با شاخصه ­های زیر  در منطقه آزاد کیش در حال خدمت­رسانی می‌باشد:         طراحی بر مبنای مدیریت رگولاتوری؛                  طراحی جامع مبتنی بر Web؛                  طراحی اختصاصی بر مبنای تمام نیازمندی­های مشتری(Total Solution)؛                  استفاده از ابزارهای استاندارد و امن پرداخت(PC-POS, IPG)؛                  قابلیت اتصال به انواع کانال­های فروش از طریق Web Services؛                  قابلیت اتصال به سایر سیستم­های کارفرما از قبیل سیستم پذیرش مسافر بندرگاه، سامانه ترنسفر و…؛                  امکان فروش توسط آژانس ­های خارج از جزیره از طریق IPG؛                  سهمیه ­بندی فروش مراکز مبتنی بر معیارهای کیفی؛                  مکانیزم مالی متمرکز در تمامی‌کانال­های فروش (واریز همه وجوه به یک حساب واحد)؛                  امکان تسهیم زمان دار و مدیریت­ شده وجوه به حساب ذی­نفعان از طریق بانک عامل."
+              id={2}
+              image="/images/allin.jpg"
+              key="2"
+              productKey="allin"
+              subtitle="آلین از سال 1393 فعالیت در حوزه خدمات مرتبط با پایانه­‌های فروش از جمله بازاریابی، نصب و پشتیبانی از پایانه ­های فروش بانکی را آغاز کرد"
+              title="آلین"
+            >
+              <div
+                className="product-card"
+              >
+                <Card
+                  className="h-100"
+                  tag="div"
+                >
+                  <div
+                    className="h-100 card"
+                  >
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardTitle
+                          tag="div"
+                        >
+                          <div
+                            className="card-title"
+                          >
+                            آلین
+                          </div>
+                        </CardTitle>
+                      </div>
+                    </CardBody>
+                    <img
+                      alt="Card cap"
+                      src="/images/allin.jpg"
+                      width="100%"
+                    />
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardText
+                          className="text-justify"
+                          tag="p"
+                        >
+                          <p
+                            className="text-justify card-text"
+                          >
+                            آلین از سال 1393 فعالیت در حوزه خدمات مرتبط با پایانه­‌های فروش از جمله بازاریابی، نصب و پشتیبانی از پایانه ­های فروش بانکی را آغاز کرد
+                          </p>
+                        </CardText>
+                        <CardLink
+                          href="#"
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          <a
+                            className="card-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                             حذف 
+                          </a>
+                        </CardLink>
+                        <CardLink
+                          className="mr-5"
+                          tag={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "NavLink",
+                              "propTypes": Object {
+                                "activeClassName": [Function],
+                                "activeStyle": [Function],
+                                "aria-current": [Function],
+                                "className": [Function],
+                                "exact": [Function],
+                                "innerRef": [Function],
+                                "isActive": [Function],
+                                "location": [Function],
+                                "onClick": [Function],
+                                "replace": [Function],
+                                "strict": [Function],
+                                "style": [Function],
+                                "target": [Function],
+                                "to": [Function],
+                              },
+                              "render": [Function],
+                            }
+                          }
+                          to="/آلین"
+                        >
+                          <NavLink
+                            className="mr-5 card-link"
+                            to="/آلین"
+                          >
+                            <Link
+                              aria-current={null}
+                              className="mr-5 card-link"
+                              to={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/آلین",
+                                  "search": "",
+                                  "state": null,
+                                }
+                              }
+                            >
+                              <LinkAnchor
+                                aria-current={null}
+                                className="mr-5 card-link"
+                                href="/آلین"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  aria-current={null}
+                                  className="mr-5 card-link"
+                                  href="/آلین"
+                                  onClick={[Function]}
+                                >
+                                   جزییات بیشتر 
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </NavLink>
+                        </CardLink>
+                      </div>
+                    </CardBody>
+                  </div>
+                </Card>
+              </div>
+            </ProductCard>
+            <ProductCard
+              description="فروشگاه اینترنتی گوشی‌شاپ در سال ۱۳۸۴ به عنوان اولین وب‌سایت اطلاع‌رسانی و فروشگاه تخصصی گوشی موبایل آغاز به‌کار کرد و افتخار دارد که با بهره‌مندی از تیم متخصص و متبحر نرم‌افزاری، اولین پلت‌فرم فروشگاهی هوشمند کاملا ایرانی را بنیان نهاده است.         کسب نماد اعتماد دو ستاره از مرکز توسعه تجارت الکترونیک، حضور در هیات موسس و عضویت در هیات مدیره انجمن صنفی کسب‌وکار اینترنتی و موفقیت در استمرار حضور ده‌ساله، مرهون اعتماد کاربران محترم است و گوشی‌شاپ قدردان این اعتماد بوده و به‌عنوان یک فروشگاه اینترنتی رعایت جانب انصاف و صداقت به عنوان اصلی‌ترین پایه این اعتماد را سرلوحه کار خود می‌داند و همواره سعی در گسترش خدمات خود خواهد داشت."
+              id={3}
+              image="/images/gooshishop.jpg"
+              key="3"
+              productKey="gooshishop"
+              subtitle="فروشگاه اینترنتی گوشی‌شاپ در سال ۱۳۸۴ به عنوان اولین وب‌سایت اطلاع‌رسانی و فروشگاه تخصصی گوشی موبایل آغاز به‌کار کرد."
+              title="گوشی شاپ"
+            >
+              <div
+                className="product-card"
+              >
+                <Card
+                  className="h-100"
+                  tag="div"
+                >
+                  <div
+                    className="h-100 card"
+                  >
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardTitle
+                          tag="div"
+                        >
+                          <div
+                            className="card-title"
+                          >
+                            گوشی شاپ
+                          </div>
+                        </CardTitle>
+                      </div>
+                    </CardBody>
+                    <img
+                      alt="Card cap"
+                      src="/images/gooshishop.jpg"
+                      width="100%"
+                    />
+                    <CardBody
+                      tag="div"
+                    >
+                      <div
+                        className="card-body"
+                      >
+                        <CardText
+                          className="text-justify"
+                          tag="p"
+                        >
+                          <p
+                            className="text-justify card-text"
+                          >
+                            فروشگاه اینترنتی گوشی‌شاپ در سال ۱۳۸۴ به عنوان اولین وب‌سایت اطلاع‌رسانی و فروشگاه تخصصی گوشی موبایل آغاز به‌کار کرد.
+                          </p>
+                        </CardText>
+                        <CardLink
+                          href="#"
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          <a
+                            className="card-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                             حذف 
+                          </a>
+                        </CardLink>
+                        <CardLink
+                          className="mr-5"
+                          tag={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "NavLink",
+                              "propTypes": Object {
+                                "activeClassName": [Function],
+                                "activeStyle": [Function],
+                                "aria-current": [Function],
+                                "className": [Function],
+                                "exact": [Function],
+                                "innerRef": [Function],
+                                "isActive": [Function],
+                                "location": [Function],
+                                "onClick": [Function],
+                                "replace": [Function],
+                                "strict": [Function],
+                                "style": [Function],
+                                "target": [Function],
+                                "to": [Function],
+                              },
+                              "render": [Function],
+                            }
+                          }
+                          to="/گوشی شاپ"
+                        >
+                          <NavLink
+                            className="mr-5 card-link"
+                            to="/گوشی شاپ"
+                          >
+                            <Link
+                              aria-current={null}
+                              className="mr-5 card-link"
+                              to={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/گوشی شاپ",
+                                  "search": "",
+                                  "state": null,
+                                }
+                              }
+                            >
+                              <LinkAnchor
+                                aria-current={null}
+                                className="mr-5 card-link"
+                                href="/گوشی شاپ"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  aria-current={null}
+                                  className="mr-5 card-link"
+                                  href="/گوشی شاپ"
+                                  onClick={[Function]}
+                                >
+                                   جزییات بیشتر 
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </NavLink>
+                        </CardLink>
+                      </div>
+                    </CardBody>
+                  </div>
+                </Card>
+              </div>
+            </ProductCard>
+          </div>
+        </Container>
+      </ProductList>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

@@ -1,0 +1,14 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+
+.product-list {
+    .product-card {
+        width: 29.5rem;
+        height: 36rem;
+        margin-top: 3rem;
+    }
+}
